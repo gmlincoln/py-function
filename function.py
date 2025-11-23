@@ -21,15 +21,15 @@
 # print(result2)
 
 
-def sum(a, b):
-    return a + b
+# def sum(a, b):
+#     return a + b
 
-num1, num2 = map(int, input("Enter two values: ").split())
+# num1, num2 = map(int, input("Enter two values: ").split())
 
-# print(sum(num1, num2))
-result = sum(num1, num2)
+# # print(sum(num1, num2))
+# result = sum(num1, num2)
 
-print(result)
+# print(result)
 
 
 
