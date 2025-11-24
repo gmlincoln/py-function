@@ -86,11 +86,27 @@
 # newFunc(name="Riyad", age=20, isMarried = False, cgpa = 3.87, dept = "CSE")
 
 
-def outer():
-    print("Outer Function")
-    def inner():
-        print("Inner Function")
-    inner()
+# def outer():
+#     print("Outer Function")
+#     def inner():
+#         print("Inner Function")
+#     inner()
        
         
-outer()
+# outer()
+
+# def square(a):
+#     return a * a 
+
+# sqr = square(5)
+# print(sqr)
+
+#Lambda function
+
+square = lambda a: a * a
+
+print(square(5))
+
+# def square(a): #square = lambda # parameter : 
+#     return  a * a # a * 
+
