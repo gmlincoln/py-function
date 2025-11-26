@@ -27,6 +27,11 @@
 # print(result)
 # print(result2)
 
+# def info(name, age):
+#     print(name, age)
+
+# info(age=22, name="Lincoln")
+
 
 # def sum(a, b):
 #     return a + b
@@ -103,11 +108,11 @@
 
 #Lambda function
 
-square = lambda a: a * a
+# square = lambda a: a * a
 
-a = int(input("Enter a value: "))
+# a = int(input("Enter a value: "))
 
-print(f"Square of {a} = {square(a)}")
+# print(f"Square of {a} = {square(a)}")
 
 # def square(a): #square = lambda # parameter : 
 #     return  a * a # a * 
