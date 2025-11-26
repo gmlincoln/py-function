@@ -105,7 +105,9 @@
 
 square = lambda a: a * a
 
-print(square(5))
+a = int(input("Enter a value: "))
+
+print(f"Square of {a} = {square(a)}")
 
 # def square(a): #square = lambda # parameter : 
 #     return  a * a # a * 
