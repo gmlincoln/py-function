@@ -146,16 +146,27 @@ print(name, age, city) # Output: Lincoln 22 Dhaka
 - Global variable → Defined outside a function (accessible everywhere).
 
 ```python 
-
+x = 10  # Global
+def show():
+    y = 5  # Local
+    print(x, y)
 ```
+
+
+### 15. The global Keyword
+Used to modify a global variable from inside a function.
+
 ```python 
+x = 10
+
+def update_x():
+    global x # Declares intent to modify the global x
+    x = 20
+
+update_x()
+print(x) # Output: 20
 
 ```
-
-
-
-
-
 
 
 ### 📘 Practice Questions
